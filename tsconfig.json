@@ -6,5 +6,6 @@
     "target": "ESNext",
     "module": "ESNext",
     "skipLibCheck": true
-  }
+  },
+  "include": ["App.tsx", "src"]
 }

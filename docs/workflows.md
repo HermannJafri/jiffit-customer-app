@@ -20,6 +20,10 @@ Account: wallet, addresses, packages, help/chat, ratings, legal.
 6. Pending Zoho recovery if the app is killed mid-checkout
 7. Detail: cancel (rules), convert to cash, rate, invoice, live hero map
 
-## Out of scope until specified
+## Implemented in this rebuild
 
-Customer self-reschedule. Marketing PWA.
+Splash → phone OTP → session persistence → Home catalog → service/variant → address book → capacity-pool slots → cash or Zoho checkout (mock pay if Zoho is unconfigured) → booking history/cancel.
+
+`EXPO_PUBLIC_API_BASE_URL` defaults to `http://localhost:5000/api/v1`.
+
+Live OTP/SMS: BLOCKED BY CREDENTIAL (dev OTP mode on the backend). Google Maps picker: BLOCKED BY CREDENTIAL (manual lat/lng on addresses).

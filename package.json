@@ -6,13 +6,17 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios"
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
     "expo": "~53.0.0",
     "expo-status-bar": "~2.2.3",
+    "expo-web-browser": "~14.1.6",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-safe-area-context": "5.4.0"
   },
   "devDependencies": {
     "@types/react": "~19.0.10",
