@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Jiffit",
+    "slug": "jiffit-customer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/jiffit-logo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "jiffit-customer",
+    "splash": {
+      "image": "./assets/images/jiffit-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7C3AED"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jiffit.jiffitCustomerApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/jiffit-logo.png",
+        "backgroundColor": "#7C3AED"
+      },
+      "package": "com.jiffit.jiffit_customer_app"
+    }
+  }
+}
